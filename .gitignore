@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+.venv/
+.venv-*/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+.jupyter_prefix/
+
+# Local tools and IDEs
+.DS_Store
+.idea/
+.vscode/
+.claude/
+.omx/
+
+# Secrets
+.env
+.env.*
+auth/
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+
+# Logs and caches
+*.log
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ML training artifacts
+**/catboost_info/
+**/AutogluonModels/
+*.joblib
+*.pkl
+!projects/module-4-decision-tree/baseline_linear_regression_pipeline.pkl
+
+# Local coursework data
+projects/**/*.csv
